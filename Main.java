@@ -1,8 +1,9 @@
 import java.time.LocalDateTime;
+import java.util.Random;
 
 public class Main {
   public static void main(final String[] args) {
-    String intro = "This is Lab01";
+    final String intro = "This is Lab01";
     // this is similar to a console.log for your terminal
     System.out.println(intro);
 
@@ -19,33 +20,48 @@ public class Main {
     final int triceratopsCount = 0;
     System.out.println("I own " + triceratopsCount + " " + pluralize("triceratops", triceratopsCount) + ".");
 
-    // flipNheads(4);
+    flipNHeadz(4);
 
   };
 
   // declare methods here
-  public static String pluralize(String pet, int num) {
+  public static String pluralize(final String pet, final int num) {
     if (num == 1) {
       return pet;
     } else {
       return pet + "s";
     }
   }
-  public static void flipNHeadz(int n) {
-    int heads = 0;
-    int flips = 0;
-    int tails = 0;
 
-    //do this while the above is true?
-    while (heads < n) {
-      if (getHeads() == "heads") {
+  public static void flipNHeadz(final int n) {
+    int headsInARow = 0;
+    int flips = 0;
+
+    // do this while the above is true?
+    while (headsInARow < n) {
+      if (checkHeads() == "heads") {
         System.out.println("heads!");
-        heads++;
-        flip++;
+        headsInARow++;
+        flips++;
       } else {
         System.out.println("tails!");
+        headsInARow = 0;
+        flips++;
       }
     }
+    System.out.println("It took " + flips + " " + pluralize("flip", flips) + " to flip " + n + " "
+        + pluralize("head", n) + " in a row.");
   }
 
+  public static String checkHeads() {
+    final Random myRandomNumbers = new Random();
+    final int m = myRandomNumbers.nextInt();
+    System.out.println(m);
+    // double m = (Math.random());
+    if (m < .5) {
+      return "tails";
+    } else {
+      return "heads";
+    }
+  }
 }
