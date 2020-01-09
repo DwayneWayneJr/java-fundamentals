@@ -3,6 +3,7 @@
  */
 package basiclibrary;
 
+import org.checkerframework.common.value.qual.StaticallyExecutable;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -11,4 +12,5 @@ public class LibraryTest {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
-}
+
+    @test public void tempData()
