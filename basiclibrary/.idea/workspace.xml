@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe6fffc4-6140-43b8-ad35-277ea723e733" name="Default Changelist" comment="" />
+    <list default="true" id="fe6fffc4-6140-43b8-ad35-277ea723e733" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,6 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
       </state>
     </system>
   </component>
@@ -39,6 +43,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="ServiceViewManager">
@@ -65,5 +72,15 @@
       <updated>1578508948313</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1578591091253">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1578591091253" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1578590680801">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578590680801" />
   </component>
 </project>
