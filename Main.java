@@ -2,22 +2,22 @@ import java.time.LocalDateTime;
 import java.util.Random;
 
 public class Main {
-  public static void main(final String[] args) {
-    final String intro = "This is Lab01";
+  public static void main(String[] args) {
+    String intro = "This is Lab01";
     // this is similar to a console.log for your terminal
     System.out.println(intro);
 
     // declare variable and execute methods
-    final int raptorCount = 1;
+    int raptorCount = 1;
     System.out.println("I own " + raptorCount + " " + pluralize("raptor", raptorCount) + ".");
 
-    final int allosaurusCount = 3;
+    int allosaurusCount = 3;
     System.out.println("I own " + allosaurusCount + " " + pluralize("allosaurus", allosaurusCount) + ".");
 
-    final int indominusRexCount = 5;
+    int indominusRexCount = 5;
     System.out.println("I own " + indominusRexCount + " " + pluralize("indominousRex", indominusRexCount) + ".");
 
-    final int triceratopsCount = 0;
+    int triceratopsCount = 0;
     System.out.println("I own " + triceratopsCount + " " + pluralize("triceratops", triceratopsCount) + ".");
 
     flipNHeadz(4);
@@ -25,7 +25,7 @@ public class Main {
   };
 
   // declare methods here
-  public static String pluralize(final String pet, final int num) {
+  public static String pluralize(String pet, int num) {
     if (num == 1) {
       return pet;
     } else {
@@ -33,7 +33,7 @@ public class Main {
     }
   }
 
-  public static void flipNHeadz(final int n) {
+  public static void flipNHeadz(int n) {
     int headsInARow = 0;
     int flips = 0;
 
@@ -54,11 +54,11 @@ public class Main {
   }
 
   public static String checkHeads() {
-    final Random myRandomNumbers = new Random();
-    final int m = myRandomNumbers.nextInt();
+    Random myRandomNumbers = new Random();
+    int m = myRandomNumbers.nextInt();
     System.out.println(m);
     // double m = (Math.random());
-    if (m < .5) {
+    if (m < 0) {
       return "tails";
     } else {
       return "heads";
