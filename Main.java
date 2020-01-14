@@ -64,4 +64,17 @@ public class Main {
       return "heads";
     }
   }
+  
+  public static void clock() {
+    LocalDateTime now = LocalDateTime.now();
+    int hour = now.getHour();
+    int minutes = now.getMinute();
+    int second = now.getSecond();
+
+    System.out.println(hour);
+    System.out.println(minutes);
+    System.out.println(second);
+
+    
+  }
 }
