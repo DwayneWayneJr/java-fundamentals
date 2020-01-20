@@ -2,7 +2,7 @@ package inheritance;
 
 import java.util.LinkedList;
 
-public class Shop {
+public class Shop implements Reviewable {
     String name;
     String description;
     int rating;
