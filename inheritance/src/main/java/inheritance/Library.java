@@ -8,7 +8,3 @@ public class Library {
         return true;
     }
 }
-
-public static String Restaurant (String() str) {
-    Restaurant openNewRestaurant = new Restaurant();
-        }
