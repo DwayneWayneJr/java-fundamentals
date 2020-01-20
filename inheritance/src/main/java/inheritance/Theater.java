@@ -41,9 +41,9 @@ public class Theater {
         return theaterDetails;
     }
 
-    public  void addReview (Review.newReview) {
+    public  void addReview (Review newReview) {
         this.numberOfReviews ++;
-        this.rating = this.rating + newReview.rating/this.numberOfReviews;
-        newReview.theaterReviews.addFirst(newReview);
+        this.rating = this.rating + (this.rating + newReview.rating / this.numberOfReviews);
+        this.theaterReviews.addFirst(newReview);
     }
 }

@@ -1,5 +1,6 @@
 package inheritance;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 
 public class Shop implements Reviewable {
@@ -7,6 +8,7 @@ public class Shop implements Reviewable {
     String description;
     int rating;
     int numberOfReviews;
+    private LinkedList<Review> shopReviews;
 
     Shop(String name, String description, int rating) {
         this.name = name;

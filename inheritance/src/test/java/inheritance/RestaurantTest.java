@@ -15,8 +15,4 @@ public class RestaurantTest {
         input.addReview((myReview));
     }
 
-    @Test
-    public void testConstructor() {
-        Assert.assertEquals();
-    }
 }
